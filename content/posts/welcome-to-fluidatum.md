@@ -2,7 +2,7 @@
 title: Welcome to Fluidatum
 subtitle: Learn Data Science through Interactive Data Visualization
 category:
-  - Third Party Integrations
+  - Data Science
 author: Mark Smith
 date: 2020-01-20T21:10:36.664Z
 featureImage: uploads/ds.jpg
