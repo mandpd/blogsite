@@ -1,21 +1,7 @@
 <template>
   <div class="logo-wrapper">
-    <div
-      :class="{
-        'logo-inner': true,
-        blink: blinking
-      }"
-    >
-      <img
-        v-for="x in frames"
-        :key="x"
-        :src="`/logo-frames/logo-f${x - 1}.svg`"
-      />
-      <img
-        v-for="x in frames"
-        :key="`${x}-r`"
-        :src="`/logo-frames/logo-f${frames - x}.svg`"
-      />
+    <div class="logo-inner">
+      <img src="/logo-frames/logo-f0.png" />
     </div>
   </div>
 </template>
@@ -26,7 +12,7 @@ export default {
     return {
       frames: 5,
       currentFrame: 1,
-      blinking: true
+      blinking: false
     }
   },
   mounted() {
@@ -57,9 +43,9 @@ export default {
       margin: 5px;
       max-height: initial;
     }
-    &.blink {
-      animation: logoBlink 0.2s steps(8, end) alternate;
-    }
+    // &.blink {
+    //   animation: logoBlink 0.2s steps(8, end) alternate;
+    // }
   }
 }
 </style>
