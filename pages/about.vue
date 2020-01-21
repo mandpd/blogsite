@@ -17,7 +17,7 @@
             interactive visualizations of the key concepts behind many of the
             statistical models and approaches utilized by today’s Data
             Scientists. We hope you find these visualizations beneficial in
-            helping you to understand the how the power of Data Science can be
+            helping you to understand how the power of Data Science can be
             leveraged.
           </p>
         </div>
