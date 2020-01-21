@@ -98,5 +98,5 @@ static/api
 !.vscode/extensions.json
 *.code-workspace
 
-# Logist
-*.logist
+# Logoist
+*.logoist
