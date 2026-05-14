@@ -36,7 +36,7 @@
     "md5": "^2.2.1",
     "ncp": "^2.0.0",
     "netlify-cms": "^2.9.5",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.18.1",
     "nuxt-buefy": "^0.3.2",
     "nuxt-fontawesome": "^0.4.0",
     "opti-image": "^0.10.0",
@@ -49,7 +49,7 @@
     "vue-disqus": "^3.0.5"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/eslint-module": "^0.0.1",
     "@nuxtjs/style-resources": "^0.1.2",
